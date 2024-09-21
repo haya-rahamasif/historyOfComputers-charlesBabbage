@@ -1,75 +1,131 @@
 body {
-    background-color: rgb(105, 67, 36);
+  background-color: #f1e9d7;
 }
 
 header {
-    background-image: url("data:image/jpeg;base64,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");
-    background-position: center 40%;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("https://pcsite.co.uk/wp-content/uploads/2023/12/Charles-Babbage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
-    color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    padding-top: 10%;
-    font-size: 70px;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding-top: 10%;
+  font-size: 70px;
 }
 
 h2 {
-    color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    font-size: 30px;
-    font-style: italic;
-    padding-bottom: 10%;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+  padding-bottom: 10%;
 }
 
 .nav {
-    text-align: center;
+  text-align: center;
 }
 
 .options {
-    padding-left: 5%;
-    padding-right: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 a {
-    color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-decoration: none;
-
+  color: rgb(58, 30, 8);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-decoration: none;
 }
 
 a:hover {
-    color: rgb(58, 30, 8);
+  text-shadow: 2px 2px 5px rgb(58, 30, 8);
 }
 
 h3 {
-    color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding-top: 10%;
-    font-size: 35px;
-    text-decoration: underline;
-    text-align: left;
+  color: rgb(58, 30, 8);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-top: 10%;
+  font-size: 35px;
+  text-decoration: underline;
+  text-align: left;
 }
 
 p {
-    color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 20px;
+  color: rgb(58, 30, 8);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 22px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+strong {
+  color: rgb(58, 30, 8);
 }
 
 .section {
-    display: flex;
-    padding-top: 5%;
+  display: flex;
+  align-items: center;
+  padding-top: 5%;
+}
+
+.cb-portrait {
+  height: 400px;
+  width: 350px;
+}
+
+.cb-fam {
+  height: 300px;
+}
+
+.square {
+  width: 300px;
+  height: 300px;
+}
+
+.full-img {
+  margin-top: 5%;
+  width: 100%;
 }
 
 img {
-    border-color: white;
-    border-style: dotted;
-    border-radius: 5px;
-    margin-right: 10px;
+  border-color: rgb(58, 30, 8);
+  border-style: dotted;
+  border-width: 5px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
 
+.page {
+  position: flex;
+  align-items: center;
+  margin-left: 11%;
+  margin-right: 11%;
+  padding-left: 20px;
+}
+
+footer {
+  text-align: center;
+  margin-left: 11%;
+  margin-right: 11%;
+  padding: 20px;
+}
+
+.term {
+  text-decoration: underline;
+}
+
+#sources {
+  text-align: center;
+}
+
+#btt {
+  font-size: 25px;
 }
